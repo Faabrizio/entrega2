@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Pagina</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header-top">
+      <img src="img/img1.png" height="80" alt="nono">
+      <h1 class="header-logo"></h1>
+      <button class="header-btn">=</button>
+    </div>
+    <nav  class="header-menu">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="Productos.html">Productos</a></li>
+        <li><a href="nosotros.html">Sobre Nosotros</a></li>
+        <li><a href="preguntas.html">Preguntas</a></li>
+        
+          </ul>
+        </nav>
+      </header>
+    
+      <script>
+        const header_btn = document.querySelector('.header-btn')
+        const header_menu = document.querySelector('.header-menu')
+        header_btn.addEventListener('click', () => {
+          if (header_menu.style.display != 'block') {
+            header_menu.style.display = 'block'
+            header_btn.innerHTML = 'X'
+          } else {
+            header_menu.style.display = 'none'
+            header_btn.innerHTML = '='
+          }
+        })
+      </script>
+
+<div class="container">
+  <div class="row">
+      <div class="container-faq">
+          <div class="title-faq">
+              <h3>Preguntas Frecuentes</h3>
+          </div>
+
+          <div class="item-faq">
+              <div class="question">
+                  <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit ? <span>Q</span></h3>
+                  <div class="more"><i>+</i></div>
+              </div>
+              <div class="answer">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores repellat vitae tenetur eos doloremque. Tempora sed ut consequatur laboriosam sit mollitia beatae error, omnis deleniti, earum eius odit. Doloribus, nesciunt.<span>A</span></p>
+              </div>
+          </div>
+
+          <div class="item-faq">
+              <div class="question">
+                  <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit ? <span>Q</span></h3>
+                  <div class="more"><i>+</i></div>
+              </div>
+              <div class="answer">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores repellat vitae tenetur eos doloremque. Tempora sed ut consequatur laboriosam sit mollitia beatae error, omnis deleniti, earum eius odit. Doloribus, nesciunt.<span>A</span></p>
+              </div>
+          </div>
+
+          <div class="item-faq">
+              <div class="question">
+                  <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit ? <span>Q</span></h3>
+                  <div class="more"><i>+</i></div>
+              </div>
+              <div class="answer">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores repellat vitae tenetur eos doloremque. Tempora sed ut consequatur laboriosam sit mollitia beatae error, omnis deleniti, earum eius odit. Doloribus, nesciunt.<span>A</span></p>
+              </div>
+          </div>
+
+          <div class="item-faq">
+              <div class="question">
+                  <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit ? <span>Q</span></h3>
+                  <div class="more"><i>+</i></div>
+              </div>
+              <div class="answer">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores repellat vitae tenetur eos doloremque. Tempora sed ut consequatur laboriosam sit mollitia beatae error, omnis deleniti, earum eius odit. Doloribus, nesciunt.<span>A</span></p>
+              </div>
+          </div>
+
+          <div class="item-faq">
+              <div class="question">
+                  <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit ? <span>Q</span></h3>
+                  <div class="more"><i>+</i></div>
+              </div>
+              <div class="answer">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores repellat vitae tenetur eos doloremque. Tempora sed ut consequatur laboriosam sit mollitia beatae error, omnis deleniti, earum eius odit. Doloribus, nesciunt.<span>A</span></p>
+              </div>
+          </div>
+
+      </div>
+  </div>
+</div>
+
+    <footer>
+       <img src="img/img1.png" alt="" class="logo">
+       <div class="social-icons-container">
+        <a href="https://www.facebook.com" class="social-icon"></a>
+        <a href="https://www.instagram.com" class="social-icon"></a>
+        <a href="https://github.com/Faabrizio" class="social-icon"></a>
+        <a href="https://twitter.com/Vikingsforce" class="social-icon"></a>
+       </div>
+       
+       
+       <spn class="copyright">&copy;2022, name todos los derechos reservados </spn>
+    </footer>
+    
+</body>
+</html>

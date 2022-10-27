@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Pagina</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header-top">
+      <img src="img/img1.png" height="80" alt="nono">
+      <h1 class="header-logo"></h1>
+      <button class="header-btn">=</button>
+    </div>
+    <nav  class="header-menu">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="Productos.html">Productos</a></li>
+        <li><a href="nosotros.html">Sobre Nosotros</a></li>
+        <li><a href="preguntas.html">Preguntas</a></li>
+        
+          </ul>
+        </nav>
+      </header>
+    
+      <script>
+        const header_btn = document.querySelector('.header-btn')
+        const header_menu = document.querySelector('.header-menu')
+        header_btn.addEventListener('click', () => {
+          if (header_menu.style.display != 'block') {
+            header_menu.style.display = 'block'
+            header_btn.innerHTML = 'X'
+          } else {
+            header_menu.style.display = 'none'
+            header_btn.innerHTML = '='
+          }
+        })
+      </script>
+
+<section class="box">
+  <img src="img/IMG-20210212-WA0000.jpg" width="180" height="170" alt="" class="box-img">
+  <h1>Fabrizio Castro</h1>
+  <h2> Programador</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad ut hic consequuntur quo qui culpa veritatis, blanditiis corrupti perspiciatis illo a laudantium illum sunt deleniti, nihil doloremque! Obcaecati, at, cupiditate.</p>
+  <ul>
+    <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></i></a></li>
+    <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+  </ul>
+
+</section>
+
+    <footer>
+       <img src="img/img1.png" alt="" class="logo">
+       <div class="social-icons-container">
+        <a href="https://www.facebook.com" class="social-icon"></a>
+        <a href="https://www.instagram.com" class="social-icon"></a>
+        <a href="https://github.com/Faabrizio" class="social-icon"></a>
+        <a href="https://twitter.com/Vikingsforce" class="social-icon"></a>
+       </div>
+       
+       
+       <spn class="copyright">&copy;2022, name todos los derechos reservados </spn>
+    </footer>
+    
+</body>
+</html>
